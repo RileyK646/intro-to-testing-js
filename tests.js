@@ -32,6 +32,9 @@ describe("sayHello", function() {
          it("should return the string 'Hello, Alex!'", function () {
              expect(sayHello("Alex")).toBe("Hello, Alex!");
             })
+         it("should return the string 'Hello, Pat!'", function () {
+        expect(sayHello("Pat")).toBe("Hello, Pat!");
+         })
 });
 // Step 1: Now that the function exists and returns the right data type, let's add our first realistic assertion. In tests.js, assert that sayHello("Jane") returns "Hello, Jane!". Our first test should be super simple and super small.
 // Step 2: Run all tests and make sure that this newly added test is red.
